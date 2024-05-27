@@ -1,0 +1,15 @@
+name: rag-app
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - langchain
+  - pip
+  - bs4
+  - pip:
+#    - langchain-google-vertexai
+#    - langchain-google-genai
+    - langchain_chroma
+    - langchainhub
+    - langchain_openai
