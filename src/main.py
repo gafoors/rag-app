@@ -1,5 +1,3 @@
-from langchain_google_vertexai import ChatVertexAI
-
 
 import bs4
 from langchain import hub
