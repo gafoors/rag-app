@@ -13,3 +13,4 @@ dependencies:
     - langchain_chroma
     - langchainhub
     - langchain_openai
+    - langchain_postgres
