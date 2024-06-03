@@ -7,6 +7,8 @@ dependencies:
   - langchain
   - pip
   - bs4
+  - streamlit
+  - PyPDF2
   - pip:
 #    - langchain-google-vertexai
 #    - langchain-google-genai
