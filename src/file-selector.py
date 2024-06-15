@@ -12,7 +12,6 @@ def document_selector():
         selected_folder_path = select_folder()
         st.session_state.folder_path = selected_folder_path
 
-
     st.title("Document Selector")
 
     # Directory where the documents are stored
@@ -60,7 +59,6 @@ def select_folder():
     folder_path = filedialog.askdirectory(master=root)
     root.destroy()
     return folder_path
-
 
 
 if __name__ == "__main__":
